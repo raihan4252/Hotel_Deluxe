@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    min-height: 100px;
+    background-color: #2a2e33;
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 353px;
+    min-height: 44px;
+    padding-top: 36px;
+    float: left;
+}
+
+.Subtitle {
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #bdbebf;
+    font-style: italic;
+}
+
+.menubar {
+    float: right;
+    width: 700px;
+    min-height: 100px;
+}
+.menubar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menubar ul li {
+    float: left;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Droidsans bold;
+    font-size: 13px;
+    padding: 40px 22px;
+    display: block;
+}
+.menubar ul li a:hover{
+    background-color: black;
+    border-top: 4px solid #ffd700;
+    padding: 37px 22px;
+}
+
+/*Header ends*/
+
+.slider{
+    background-color: #00ccff;
+    min-height: 462px;
+    position: relative;
+    width: 100%;
+}
+
+.caption_title {
+    width: 740px;
+    height: 245px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.wlcmtxt{
+    color: #F1FCFD;
+    font-family: Quicksand;
+    font-size: 30px;
+    position: relative;
+}
+.wlcmtxt:after{
+    content: "";
+    position:absolute;
+    top:0;
+    bottom: 0;
+    height:100%;
+    width:55%;
+    border-bottom: 1px dashed white;
+    margin: 20px -353px;
+}
+.dlx{
+    font-family: Droidsans;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+}
+.dlx:after{
+    content: "";
+    position:absolute;
+    top:0;
+    bottom: 0;
+    height:100%;
+    width:48%;
+    border-bottom: 1px dashed white;
+    margin: 16px -397px
+}
+.htl{
+    color: #F1FCFD;
+    font-family: Quicksand;
+    font-size: 30px;
+    margin-top: 66px;
+}
+
+.view_pricing {
+    background-color: #2a2e33;
+    width: 1044px;
+    min-height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    margin: 0 auto;
+    right: 0;
+    
+}
+.form_grouup{
+    
+}
+
+.arrival {
+    float: left;
+}
+.arrival label{
+    color: #a48d1e;
+    font-family: quicksand;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+    
+}
+
+.coomon{
+    width: 255px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: url(../images/arrival.png) no-repeat  white 5%;
+    margin-left:10px;
+    padding-left: 29px;
+    appearance:none;
+    
+}
+
+.std{
+    width: 255px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 8px;
+    background: url(../images/downarrow.png) no-repeat white 5%;
+    font-family: Quick Sand;
+    font-size: 18px;
+    padding-left: 33px;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+    
+   
+
+}
+
+.vwprice {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffd700;
+    color: #2a2e33;
+    font-family: droidsans;
+    font-size:  18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.vwprice:hover{
+    color: white;
+}
+.shadow{
+    margin-top: 43px;
+    overflow: hidden;
+    margin-left: 223px;
+}
+
+/*END */
+
+.package_title {
+    background-image: url(../images/package_BG.png);
+    overflow: hidden;
+    border-bottom: 1px solid #929496;
+    width: 100%;
+}
+.packagEESS{
+    width: 1184px;
+    min-height: 125px;
+    text-align: center;
+    margin: 0 auto;
+}
+.packagEESS h1{
+    font-family: AR DECODE;
+    font-size: 60px;
+    color: #2a2e33;
+}
+.packagEESS p{
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #414448;
+}
+
+.arrow {
+    width: 1086px;
+    min-height: 234px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.left_arrow {
+    float: left;
+    margin-top: 75px;
+}
+
+.circle_img {
+    float: left;
+    width: 225px;
+    min-height: 215px;
+    border: 3px solid #2a2e33;
+    background-color: white;
+    border-radius: 130px;
+    margin-left: 67px;
+    background-image: url(../images/po3.jpg);
+    
+}
+
+.right_arrow {
+    float: right;
+    margin-top: 75px;
+}
+.Room_types {
+    min-height: 502px;
+    border-bottom: 1px solid #939597;
+    background-image: url(../images/main_BG.png);
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.room_type_title {
+    font-family: AR DECODE;
+    font-size: 60px;
+    color: #2a2e33;
+    width: 552px;
+    min-height: 110px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+}
+.roomroom{
+    width:1190px;
+    min-height: 657px;
+    margin: 35px auto;
+}
+
+.single_room_type {
+    width: 382px;
+    min-height: 274px;
+    float: left;
+    padding-right: 10px;
+}
+
+.room_img {
+}
+
+.single_room_type h1 {
+    font-family: Quicksand;
+    font-size: 24px;
+    color: #2a2e33;
+    text-align: center;
+}
+.single_room_type p{
+    font-size: 12px;
+    font-family: Quicksand;
+    color: #2a2e33;
+    text-align: center;
+    
+}
+.single_room_type img{
+    padding-left: 2px;
+}
+
+.room_facility {
+   margin-left: 122px;
+    margin-top: 15px;
+}
+
+.promotion {
+    background-color: #e7cb2c;
+    min-height: 179px;
+    width: 100%;
+}
+.promotion_data{
+    width: 800px;
+    min-height: 93px;
+    float: left;
+    padding-top: 30px;
+    margin-left: 70px;
+}
+
+.promotion_data h1{
+    font-size: 48px;
+    font-family: Quicksand;
+    color: white;
+    font-weight: 100;
+}
+.promotion_data p{
+    font-size: 18px;
+    font-family: Quicksand;
+    color: white;
+    font-style: italic;
+    
+}
+.person_image {
+    float: right;
+    position: absolute;
+    top: 1820px;
+    right: 63px;
+}
+
+.footer {
+    min-height: 216px;
+    background-color: #333333;
+    overflow:hidden;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.about_this_hotel {
+    float: left;
+    width: 222px;
+    min-height: 134px;
+    margin-left: 90px;
+}
+.chame{
+    font-family: Droidsans;
+    font-size: 18px;
+    color:#d6d6d6;
+}
+.same2{
+    font-family: Quicksand;
+    font-size: 12px;
+    color:#d6d6d6;
+}
+
+.latest_news {
+    float: left;
+    width: 170px;
+    min-height: 162px;
+    margin-left: 18px;
+}
+
+.news_data h5 {
+    color:#e0e0e0;
+    font-family: Droidsans;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.date {
+    color: #c2ab2e;
+    font-family: Droidsans;
+}
+
+
+.join {
+    float: left;
+    width: 468px;
+    min-height: 190px;
+/*    margin-left: 50px;*/
+}
+
+.rdmore {
+    background-color: #e7cb2c;
+    color: black;
+    font-family: Droidsans;
+    font-size: 12px;
+    font-weight: bold;
+    width: 106px;
+    min-height: 31px;
+    border: none;
+    border-radius: 10px;
+}
+
+.members_area {
+    float: left;
+    width: 217px;
+    min-height: 191px;
+    margin-left: 18px;
+}
+
+.form_data {
+    color:#d6d6d6;
+}
+.form_data input{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 201px;
+    min-height: 33px;
+    background-color: #333333;
+}
+
+.logon {
+    background-color: #e7cb2c;
+    color: black;
+    font-family: Droidsans;
+    font-size: 12px;
+    font-weight: bold;
+    width: 106px;
+    min-height: 31px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
